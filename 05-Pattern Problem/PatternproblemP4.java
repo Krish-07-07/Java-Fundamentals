@@ -59,7 +59,7 @@ Public class Patternproblem {
     //     System.out.println();
     // }
 
-    // letter pattern 
+   // letter pattern 
 
    //  int n = 5;
    //   for(int row =1 ; row<= n; row++){
