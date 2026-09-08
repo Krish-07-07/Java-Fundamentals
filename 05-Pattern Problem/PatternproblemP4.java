@@ -1,5 +1,5 @@
-Public class Patternproblem {
-   static void main(strings[] args){
+public class PatternproblemP4{
+   static void main(String[] args){
 
     //butterfly pattern 
     int n = 4 ;
