@@ -12,7 +12,7 @@ public class Main{
 
        List.remove(2);
        System.out.println(List);
-    //    List<Integer> List = new ArrayList<>();
-    //    Collection<Integer> Collection = new ArrayList<>();
+       List<Integer> List = new ArrayList<>();
+       Collection<Integer> Collection = new ArrayList<>();
     }
 }// Frame work 
