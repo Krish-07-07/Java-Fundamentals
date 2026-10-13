@@ -12,7 +12,31 @@ public class Main{
 
        List.remove(2);
        System.out.println(List);
-       List<Integer> List = new ArrayList<>();
-       Collection<Integer> Collection = new ArrayList<>();
+       
+       List<Integer> list2 = new ArrayList<>();
+       list2.add(101);
+       list2.add(102);
+       list2.add(20);
+
+       List.addAll(list2);
+       System.out.println(List);
+       List.removeAll(list2);
+       System.out.println(List);
+
+       System.out.println(List.size());
+
+       System.out.println("print list2 : "+ list2);
+       list2.clear();
+       System.out.println(list2.size());
+
+       Iterator<Integer> iterator = list.iterator();
+       while(iterator.hasNext()){
+        System.out.println("Element :"+iterator.next());
+       }
+
+
+
+    //    List<Integer> List = new ArrayList<>();
+    //    Collection<Integer> Collection = new ArrayList<>();`
     }
-}// Frame work 
+}
